@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Oevelse5_Loop/1.0.0": {
+        "runtime": {
+          "Oevelse5_Loop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oevelse5_Loop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

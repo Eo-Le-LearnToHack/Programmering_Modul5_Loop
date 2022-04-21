@@ -1,0 +1,15 @@
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\bin\Debug\net6.0\Oevelse5_Loop.exe
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\bin\Debug\net6.0\Oevelse5_Loop.deps.json
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\bin\Debug\net6.0\Oevelse5_Loop.runtimeconfig.json
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\bin\Debug\net6.0\Oevelse5_Loop.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\bin\Debug\net6.0\Oevelse5_Loop.pdb
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.csproj.AssemblyReference.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.AssemblyInfoInputs.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.AssemblyInfo.cs
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.csproj.CoreCompileInputs.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\refint\Oevelse5_Loop.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.pdb
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\Oevelse5_Loop.genruntimeconfig.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse5_Loop\obj\Debug\net6.0\ref\Oevelse5_Loop.dll

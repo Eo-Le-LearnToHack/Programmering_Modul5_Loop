@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
 
 /* Øvelse 5.1
  
@@ -8,7 +7,88 @@ Lav et program, som udskriver tallene fra 1 til 10.
 🤔 Prøv at lave en ny udgave af det samme program, som gør det samme, men bruger en anden slags løkke.
 
 Se vejledende løsning til 5.1 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=77fe4fa8-c359-401f-a21e-addc014defc7
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.1: Looping from 1 to 10 (For loop)");
+//Console.ReadLine();
+//for (int i = 1; i < 11; i++)
+//			{
+//			Console.WriteLine("i = " + i);
+//			Console.ReadLine();
+//			}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.1: Looping from 1 to 10 (While loop)");
+//Console.ReadLine();
+//int i = 1;
+//while (i >= 1 && i <= 10)
+//{
+//	Console.WriteLine("i = " + i);
+//	Console.ReadLine();
+//	i++;
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.1: Looping from 1 to 10 (Do While loop)");
+//Console.ReadLine();
+//int i = 1;
+//do
+//{
+//	Console.WriteLine("i = " + i);
+//	Console.ReadLine();
+//	i++;
+//} while (i >= 1 && i <= 10);
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.1: Looping from 1 to 10 (For loop, printing array)");
+//Console.ReadLine();
+//int[] numArray = {1, 2, 3, 4, 5, 6, 7, 8, 9 , 10};
+//for (int i = 0; i < numArray.Length; i++)
+//{
+//    Console.WriteLine("i = " + numArray[i]);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.1: Looping from 1 to 10 (Foreach loop, printing array, applying continue and break)");
+//Console.ReadLine();
+//int[] numArray = { 1, 33, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+//foreach (int i in numArray)
+//{
+//    if (i == 33) continue; //Skip 33
+//    if (i == 11) break; //Stop loop at 11 and does not print out 11.
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+
 
 /* Øvelse 5.2
 Lav et program, som udskriver tallene fra 10 til 1.
@@ -16,6 +96,88 @@ Lav et program, som udskriver tallene fra 10 til 1.
 
 Se vejledende løsning til 5.2 her.
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.2: Looping from 10 to 1 (For loop)");
+//Console.ReadLine();
+//for (int i = 10; i < 11; i--)
+//{
+//    if (i < 1) break;
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.2: Looping from 10 to 1 (While loop)");
+//Console.ReadLine();
+//int i = 10;
+//while (i <= 10 && i >= 1)
+//{
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//    i--;
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.2: Looping from 10 to 1 (Do While loop)");
+//Console.ReadLine();
+//int i = 10;
+//do
+//{
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//    i--;
+//} while (i >= 1 && i <= 10);
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.2: Looping from 10 to 1 (For loop, printing array)");
+//Console.ReadLine();
+//int[] numArray = {1, 2, 3, 4, 5, 6, 7, 8, 9 , 10};
+//for (int i = 9; i < numArray.Length; i--)
+//{
+//    if (i < 0) break;
+//    Console.WriteLine("i = " + numArray[i]);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.2: Looping from 10 to 1 (Foreach loop, printing array, applying continue and break)");
+//Console.ReadLine();
+//int[] num_Array = { 1, 33, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+//Array.Reverse(num_Array);
+//foreach (int i in num_Array)
+//{
+//    if (i == 33) continue; //Skip 33
+//    if (i == 11) continue; //Stop loop at 11 and does not print out 11.
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
 
 /*Øvelse 5.3
 Lav et program, som udskriver 3-tabellen til og med 30 (altså 3, 9, 12 osv)

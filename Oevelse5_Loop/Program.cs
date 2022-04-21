@@ -95,6 +95,7 @@ Lav et program, som udskriver tallene fra 10 til 1.
 
 
 Se vejledende løsning til 5.2 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b5cac34-ef2c-4787-8970-addc014dee39
 */
 
 //using System;
@@ -182,9 +183,96 @@ Se vejledende løsning til 5.2 her.
 /*Øvelse 5.3
 Lav et program, som udskriver 3-tabellen til og med 30 (altså 3, 9, 12 osv)
 
-
 Se vejledende løsning til 5.3 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64e6cd53-7466-45fb-9ddc-addc014de7f7
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.3: Looping '3 tabel' (For loop)");
+//Console.ReadLine();
+//for (int i = 1; i < 11; i++)
+//{
+//    Console.WriteLine("i = " + i*3);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.3: Looping '3 tabel' (While loop)");
+//Console.ReadLine();
+//int i = 1;
+//while (i >0 && i <11)
+//{
+//    Console.WriteLine("i = " + i*3);
+//    Console.ReadLine();
+//    i++;
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.3: Looping '3 tabel' (Do While loop)");
+//Console.ReadLine();
+//int i = 3;
+//do
+//{
+//    Console.WriteLine("i = " + i);
+//    Console.ReadLine();
+//    i=i+3;
+//} while (i >= 3 && i <= 30);
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.3: Looping '3 tabel' (For loop, printing array)");
+//Console.ReadLine();
+//int j = 0;
+//int k = 9;
+//int[] numArray;
+//numArray = new int[k+1];
+//for (int i = j; i < numArray.Length; i++)
+//{
+//    numArray[i] = i + 1;
+//    Console.WriteLine(numArray[i] + " = " + numArray[i] * 3);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.3: Looping '3 tabel' (Foreach loop, printing array)");
+//Console.ReadLine();
+//int j = 0;
+//int k = 9;
+//int[] numArray;
+//numArray = new int[k + 1];
+//for (int i = j; i < numArray.Length; i++)
+//{
+//    numArray[i] = i + 1;
+//}
+//foreach (int i in numArray)
+//{
+//    Console.WriteLine(numArray[i-1] + " = " + i * 3);
+//    Console.ReadLine();
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
 
 /*Øvelse 5.4
 Lav et program som beder brugeren om en adgangskode. Den korrekte adgangskode er "password". Programmet skal blive ved med at spørge om adgangskoden, indtil den rigtige adgangskode skrives.

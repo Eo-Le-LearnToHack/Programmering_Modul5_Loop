@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Oevelse5_Loop",
+    "\\Oevelse5_Loop\\bin",
+    "\\Oevelse5_Loop\\bin\\Debug",
+    "\\Oevelse5_Loop\\bin\\Debug\\net6.0",
+    "\\Oevelse5_Loop\\obj",
+    "\\Oevelse5_Loop\\obj\\Debug",
+    "\\Oevelse5_Loop\\obj\\Debug\\net6.0"
   ],
-  "SelectedNode": "\\C:\\Users\\sim8hu\\Desktop\\Code\\Ovelse",
+  "SelectedNode": "\\Oevelse5_Loop\\Oevelse5_Loop.sln",
   "PreviewInSolutionExplorer": false
 }

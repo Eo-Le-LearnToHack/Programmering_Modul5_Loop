@@ -267,7 +267,7 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64e6cd53-7466-
 //}
 //foreach (int i in numArray)
 //{
-//    Console.WriteLine(numArray[i-1] + " = " + i * 3);
+//    Console.WriteLine(numArray[i - 1] + " = " + i * 3);
 //    Console.ReadLine();
 //}
 //Console.WriteLine("Press enter to try again");
@@ -280,7 +280,115 @@ Lav et program som beder brugeren om en adgangskode. Den korrekte adgangskode er
 💡 Det er en rigtig dårlig ide at bruge password som adgangskode (selvom mange gør det)
 
 Se vejledende løsning til 5.4 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9494b12-b94a-43d6-8748-addc014de863
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.4: Looping 'entering password' (For loop, Switch)");
+//Console.ReadLine();
+//const string psw = "password";
+//int k = 2;
+//Console.WriteLine("Enter the correct password {Case insensitive}");
+//for (int i = 1; i < k; i++)
+//{
+//    string? input_psw = Convert.ToString(Console.ReadLine());
+//    switch (input_psw.ToLower())
+//    {
+//        case psw:
+//            Console.WriteLine("Det indtastede password er korrekt");
+//            break;
+//        default:
+//            Console.WriteLine("Det indtastede password er forkert. Prøv igen");
+//            k++;
+//            break;
+//    }
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.4: Looping 'entering password' (For loop, If var.Equals())");
+//Console.ReadLine();
+//const string psw = "password";
+//int k = 2;
+//Console.WriteLine("Enter the correct password {Case insensitive}");
+//for (int i = 1; i < k; i++)
+//{
+//    string? input_psw = Convert.ToString(Console.ReadLine());
+//    if (input_psw is not null)
+//    {
+//        if (input_psw.Equals(psw, StringComparison.OrdinalIgnoreCase))
+//        {
+//            Console.WriteLine("Det indtastede password er korrekt");
+//            k = i;
+//        }
+//        else
+//        {
+//            Console.WriteLine("Det indtastede password er forkert. Prøv igen");
+//            k++;
+//        }
+//    }
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.4: Looping 'entering password' (While loop, !=)");
+//Console.ReadLine();
+//const string psw = "password";
+//loop:
+//Console.WriteLine("Enter the correct password {Case insensitive}");
+//string? input_psw = Convert.ToString(Console.ReadLine());
+//if (input_psw is not null)
+//{
+//    while (input_psw.ToLower() != psw)
+//    {
+//        Console.WriteLine("Det indtastede password er forkert. Tryk ENTER og Prøv igen");
+//        Console.ReadLine();
+//        goto loop;
+//    }
+//    Console.WriteLine("Det indtastede password er korrekt");
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.4: Looping 'entering password' (Do While loop, !=)");
+//Console.ReadLine();
+//const string psw = "password";
+//loop:
+//Console.WriteLine("Enter the correct password {Case insensitive}");
+//string? input_psw = Convert.ToString(Console.ReadLine());
+//if (input_psw is not null)
+//{
+//    do
+//    {
+//        if (input_psw.ToLower() == psw)
+//        {
+//            Console.WriteLine("Det indtastede password er korrekt");
+//            Console.WriteLine("Press enter to try again");
+//            Console.ReadLine();
+//            goto start;
+//        }
+//        else {
+//            Console.WriteLine("Det indtastede password er forkert. Tryk ENTER og Prøv igen");
+//            Console.ReadLine();
+//            goto loop;
+//        }
+//    } while (input_psw.ToLower() != psw);
+//}
+
 
 /*Øvelse 5.5
 

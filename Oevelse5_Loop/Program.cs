@@ -401,14 +401,33 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9494b12-b94a-
 
 
 /*Øvelse 5.5
-
 Lav et program, hvor brugeren skal gætte et tal mellem 1 og 10. Programmet skal spørge efter et nyt gæt, så længe brugeren taster forkert.
-
 💡 Det er kedeligt, at computeren altid tænker på det samme tal. Du kan bruge et af kodeeksemplerne på siden Generate Random Numbers til at få computeren til at tænke på et tilfældigt tal.
-
-
+https://www.c-sharpcorner.com/article/generating-random-number-and-string-in-C-Sharp/
 Se vejledende løsning til 5.5 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ce3930ff-ef0e-4e75-b6db-addc014de830
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.5: Looping 'guessing random number'");
+//Random _random = new Random(); //Instantiate a random as the variable _random
+//int randomNum = _random.Next(1, 11); //random number from 1-10
+//int yourNum;
+//do
+//{
+//    Console.WriteLine("Guess a number from 1-10. Please enter your choice below and press Enter:");
+//    yourNum = Convert.ToInt32(Console.ReadLine()); //yourNum
+//   // int randomNum = _random.Next(1, 11); //random number from 1-10
+//} while (yourNum != randomNum);
+
+//Console.WriteLine("Good guess");
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
+
 
 /*Øvelse 5.6
 Lav et program, hvor brugeren kan kan indtaste navnene på de personer, der deltager i et arrangement. Hver gang brugeren indtaster et navn, skal han spørges om endnu et navn. 

@@ -389,6 +389,16 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9494b12-b94a-
 //    } while (input_psw.ToLower() != psw);
 //}
 
+//using System;
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.4: Looping 'entering password' (Do While loop, !=, short version)");
+//Console.ReadLine();
+//Console.WriteLine("Enter the correct password {Case insensitive}");
+//string? input_psw;
+//    do {
+//    input_psw = Convert.ToString(Console.ReadLine());
+//} while (input_psw.ToLower() != "password");
+
 
 /*Øvelse 5.5
 

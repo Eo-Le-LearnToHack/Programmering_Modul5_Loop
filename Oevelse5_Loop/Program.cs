@@ -430,18 +430,54 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ce3930ff-ef0e-
 
 
 /*Øvelse 5.6
-Lav et program, hvor brugeren kan kan indtaste navnene på de personer, der deltager i et arrangement. Hver gang brugeren indtaster et navn, skal han spørges om endnu et navn. 
-
-Når der ikke er flere deltagere, skal brugeren bare trykke enter (dvs indtaste et tomt navn). Så skal programmet stoppe med at spørge og udskrive antallet af deltagere.
-
-
+Lav et program, hvor brugeren kan kan indtaste navnene på de personer, der deltager i et arrangement. 
+Hver gang brugeren indtaster et navn, skal han spørges om endnu et navn. 
+Når der ikke er flere deltagere, skal brugeren bare trykke enter (dvs indtaste et tomt navn). 
+Så skal programmet stoppe med at spørge og udskrive antallet af deltagere.
 Se vejledende løsning til 5.6 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=202e4052-fda1-4024-a7d7-addc014de7c8
+https://www.c-sharpcorner.com/UploadFile/mahesh/add-items-to-a-C-Sharp-list/
+https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-window-in-c-sharp
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.6: Looping 'adding names'");
+//string? yourName;
+//int count = 0;
+//Console.WriteLine("Add a name to your list:");
+//List<string> GuestList = new List<string>();
+//do
+//{
+//    yourName = Console.ReadLine();
+//    if (yourName != "")
+//    {
+//        GuestList.Add(yourName);
+//        count++;
+//    }
+    
+//} while (yourName != "");
+//if (count == 1)
+//{
+//    Console.WriteLine($"Der kommer {count} gæst:");
+//}
+//else
+//{
+//    Console.WriteLine($"Der kommer {count} gæster:");
+//}
+//GuestList.ForEach(Console.WriteLine);
+//Console.WriteLine("");
+//Console.WriteLine("List of names has been created.");
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
 
 /*Øvelse 5.7
 Lav et program, der kan skrive teksten til den klassiske sang 99 bottles of beer on the wall.
-
 Se vejledende løsning til 5.7 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=534a44be-2f16-4b0e-9e69-addc014df67a
 */
 
 /*Øvelse 5.8

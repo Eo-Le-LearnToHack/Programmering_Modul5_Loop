@@ -515,13 +515,143 @@ NB! FEJL i underviserens eksempel, i det teksten ændrer sig når der er 1 øl t
 /*Øvelse 5.8
 
 Lav et program, som udskriver Den lille tabel.  
-
 💡 Start med at lave et-tabellen og tænk så over, hvordan du får programmet til at lave de øvrige
-
 🤔 Ligner din udskrift en tabel? Hvis ikke, så kig på siden Escape sequences for at se, hvordan du kan formattere din tekst, så den ser (lidt) mere overskuelig ud.
 
 Se vejledende løsning til 5.8 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a69548b2-2c9d-43b5-9c26-addc014df48f
+https://www.gangetabel.dk/lille-tabel/
+https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170
 */
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//List<string> List0 = new List<string>();
+//List<int> List1 = new List<int>();
+//List<int> List2 = new List<int>();
+//List<int> List3 = new List<int>();
+//List<int> List4 = new List<int>();
+//List<int> List5 = new List<int>();
+//List<int> List6 = new List<int>();
+//List<int> List7 = new List<int>();
+//List<int> List8 = new List<int>();
+//List<int> List9 = new List<int>();
+//List<int> List10 = new List<int>();
+//for (int i = 0; i < 11; i++)
+//{
+//    if (i == 0)
+//    {
+//        List0.Add(" ");
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List0.Add($"{j}");
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List0)));
+//    }
+//    if (i == 1)
+//    {
+//        List1.Add(1);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List1.Add(j);
+//        }
+//     Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List1)));
+//    }
+//    if (i == 2)
+//    {
+//        List2.Add(2);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List2.Add(j*2);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List2)));
+//    }
+//    if (i == 3)
+//    {
+//        List3.Add(3);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List3.Add(j * 3);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List3)));
+//    }
+//    if (i == 4)
+//    {
+//        List4.Add(4);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List4.Add(j * 4);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List4)));
+//    }
+//    if (i == 5)
+//    {
+//        List5.Add(5);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List5.Add(j * 5);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List5)));
+//    }
+//    if (i == 6)
+//    {
+//        List6.Add(6);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List6.Add(j * 6);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List6)));
+//    }
+//    if (i == 7)
+//    {
+//        List7.Add(7);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List7.Add(j * 7);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List7)));
+//    }
+//    if (i == 8)
+//    {
+//        List8.Add(8);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List8.Add(j * 8);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List8)));
+//    }
+//    if (i == 9)
+//    {
+//        List9.Add(9);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List9.Add(j * 9);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List9)));
+//    }
+//    if (i == 10)
+//    {
+//        List10.Add(10);
+//        for (int j = 1; j < 11; j++)
+//        {
+//            List10.Add(j * 10);
+//        }
+//        Console.WriteLine(string.Format("Here's the list: ({0}).", string.Join(", ", List10)));
+//    }
+//}
+
+//using System;
+//for (int linje = 1; linje < 11; linje++)
+//{
+//    for (int tal = linje; tal < linje * 10 + 1; tal = tal + linje)
+//    {
+//        Console.Write($"{tal}\t");
+//    }
+//    Console.WriteLine();
+//}
+
+
 
 /*Øvelse 5.9
 Lav et program, hvor brugeren kan indtaste et tal, hvorefter programmet udskriver den tabel. Dvs., hvis brugeren indtaster 4 skriver programmet "4 8 12 … 40"

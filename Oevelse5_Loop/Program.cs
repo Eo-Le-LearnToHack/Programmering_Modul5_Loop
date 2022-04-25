@@ -456,7 +456,7 @@ https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-
 //        GuestList.Add(yourName);
 //        count++;
 //    }
-    
+
 //} while (yourName != "");
 //if (count == 1)
 //{
@@ -478,7 +478,39 @@ https://stackoverflow.com/questions/759133/how-to-display-list-items-on-console-
 Lav et program, der kan skrive teksten til den klassiske sang 99 bottles of beer on the wall.
 Se vejledende løsning til 5.7 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=534a44be-2f16-4b0e-9e69-addc014df67a
+http://www.99-bottles-of-beer.net/lyrics.html
+NB! FEJL i underviserens eksempel, i det teksten ændrer sig når der er 1 øl tiltabge. Lige ledes når der ingen øl er tilbage.
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.7: Looping 'writing lyric to beer song'");
+//for (int flasker = 99; flasker > -1; flasker--)
+//{
+//    if (flasker > 1)
+//    {
+//        Console.WriteLine($"{flasker} bottles of beer on the wall, {flasker} bottles of beer.");
+//        Console.WriteLine($"Take one down and pass it around, {flasker - 1} bottles of beer on the wall.");
+//        Console.WriteLine("");
+//    }
+//    else if (flasker == 1)
+//    {
+//        Console.WriteLine("1 bottle of beer on the wall, 1 bottle of beer.");
+//        Console.WriteLine("Take one down and pass it around, no more bottles of beer on the wall.");
+//        Console.WriteLine("");
+//    }
+//    else if (flasker == 0)
+//    {
+//        Console.WriteLine("No more bottles of beer on the wall, no more bottles of beer.");
+//        Console.WriteLine("Go to the store and buy some more, 99 bottles of beer on the wall.");
+//        Console.WriteLine("");
+//    }
+//}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
+
 
 /*Øvelse 5.8
 

@@ -642,14 +642,36 @@ https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170
 //}
 
 //using System;
-//for (int linje = 1; linje < 11; linje++)
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.8: Looping 'writing 10-tabel'");
+//Console.WriteLine();
+//for (int linje = 0; linje < 11; linje++)
 //{
-//    for (int tal = linje; tal < linje * 10 + 1; tal = tal + linje)
+//    if (linje == 0)
 //    {
-//        Console.Write($"{tal}\t");
+//        Console.Write(" \t");
+//        for (int tal = linje+1; tal < linje + 11; tal = tal + 1)
+//        {
+//            Console.Write($"{tal}\t");
+//        }
+//        Console.WriteLine();
+//        Console.WriteLine();
 //    }
-//    Console.WriteLine();
+//    else
+//    {
+//        Console.Write($"{linje}\t");
+//        for (int tal = linje; tal < linje * 10 + 1; tal = tal + linje)
+//        {
+//            Console.Write($"{tal}\t");
+//        }
+//        Console.WriteLine();
+//        Console.WriteLine();
+//    }
 //}
+//Console.WriteLine("Press enter to try again");
+//Console.ReadLine();
+//goto start;
 
 
 

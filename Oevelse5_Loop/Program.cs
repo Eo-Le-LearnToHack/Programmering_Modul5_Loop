@@ -712,13 +712,71 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dadbd072-5ac3-
 
 
 /*Øvelse 5.10
-Lav et program hvor brugeren kan indtaste sin adgangskode. Hvis adgangskoden er forkert, må brugeren indtaste igen - dog højst tre gange i alt. Efter det skal brugeren have at vide, at hans konto er spærret.
-
+Lav et program hvor brugeren kan indtaste sin adgangskode. 
+Hvis adgangskoden er forkert, må brugeren indtaste igen - dog højst tre gange i alt. 
+Efter det skal brugeren have at vide, at hans konto er spærret.
 Adgangskoden i dette program er også "password".
-
 🤔 Programmet kan laves med eller uden brug af break/continue. Kan du lave begge udgaver?
-
 💡 Det er en dårlig ide at bruge den samme adgangskode i flere forskellige systemer.
-
 Se vejledende løsning til 5.10 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aff6f410-1a19-44a2-8ab9-addc014df138
  */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.10: Looping 'Check password _ max 3 times'");
+//Console.WriteLine();
+//string kode = "password";
+//Console.WriteLine("Indtast dit kodeord");
+//string? kodeIndtastet = "WrongPasswordPerDefault";
+//int kodeIndtastninger = 1;
+//do
+//{
+//    if (kodeIndtastninger < 4)
+//    {
+//        kodeIndtastet = Console.ReadLine();
+//        Console.Clear();
+//        if (kodeIndtastet.ToLower() == kode)
+//        {
+//            Console.WriteLine("Korrekt password. Tryk ENTER og prøv igen.");
+//            Console.ReadLine();
+//            goto start;
+//        }
+//        Console.WriteLine($"Forkert password. Antal forsøg brugt: {kodeIndtastninger}");
+//        kodeIndtastninger++;
+//    }
+//    if (kodeIndtastninger > 3)
+//    {
+//        Console.Clear();
+//        Console.WriteLine($"Max antal login forsøg brugt. Antal forsøg brugt: {kodeIndtastninger-1}");
+//        Console.WriteLine("Tryk ENTER og prøv igen.");
+//        Console.ReadLine();
+//        goto start;
+//    }
+//} while (kodeIndtastet.ToLower() != kode);
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.10: Looping 'Check password _ max 3 times'");
+//Console.WriteLine();
+//string kode = "password";
+//Console.WriteLine("Indtast dit kodeord");
+//string? kodeIndtastet = "WrongPasswordPerDefault";
+//int kodeIndtastninger = 0;
+//do
+//{
+//    kodeIndtastet = Console.ReadLine();
+//    kodeIndtastninger++;
+//    if (kodeIndtastet.ToLower() == kode)
+//    {
+//        Console.WriteLine("Korrekt password. Tryk ENTER og prøv igen.");
+//        Console.ReadLine();
+//        goto start;
+//    }
+//} while (kodeIndtastet.ToLower() != kode && kodeIndtastninger < 3);
+//Console.WriteLine($"Max antal login forsøg brugt. Antal forsøg brugt: {kodeIndtastninger }");
+//Console.WriteLine("Tryk ENTER og prøv igen.");
+//Console.ReadLine();
+//goto start;

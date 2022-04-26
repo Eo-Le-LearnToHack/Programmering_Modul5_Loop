@@ -780,3 +780,33 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aff6f410-1a19-
 //Console.WriteLine("Tryk ENTER og prøv igen.");
 //Console.ReadLine();
 //goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.10: Looping 'Check password _ max 3 times'");
+//Console.WriteLine();
+//string kode = "password";
+//Console.WriteLine("Indtast dit kodeord");
+//string? kodeIndtastet = "WrongPasswordPerDefault";
+//int kodeIndtastninger = 0;
+//do
+//{
+//    kodeIndtastet = Console.ReadLine();
+//    kodeIndtastninger++;
+//    if (kodeIndtastet.ToLower() == kode)
+//    {
+//        break; //gør nøjgagtigt det samme hvis continue; var blevet anvendt
+//    }
+//    if (kodeIndtastninger > 2)
+//    {
+//        Console.WriteLine($"Max antal login forsøg brugt. Antal forsøg brugt: {kodeIndtastninger }");
+//        Console.WriteLine("Tryk ENTER og prøv igen.");
+//        Console.ReadLine();
+//        goto start;
+//    }
+//} while (kodeIndtastet.ToLower() != kode && kodeIndtastninger < 3);
+//Console.WriteLine($"Korrekt password");
+//Console.WriteLine("Tryk ENTER og prøv igen.");
+//Console.ReadLine();
+//goto start;

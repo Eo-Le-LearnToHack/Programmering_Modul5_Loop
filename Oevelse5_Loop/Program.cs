@@ -676,13 +676,39 @@ https://docs.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170
 
 
 /*Øvelse 5.9
-Lav et program, hvor brugeren kan indtaste et tal, hvorefter programmet udskriver den tabel. Dvs., hvis brugeren indtaster 4 skriver programmet "4 8 12 … 40"
-
+Lav et program, hvor brugeren kan indtaste et tal, 
+hvorefter programmet udskriver den tabel. 
+Dvs., hvis brugeren indtaster 4 skriver programmet "4 8 12 … 40"
 🤔 Virker dit program også, hvis brugeren indtaster et decimaltal? Hvis ikke, hvad skal der så ændres for at det gør?
-
-
 Se vejledende løsning til 5.9 her.
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Øvelse 5.9: Looping 'Input/Output tabel'");
+//Console.WriteLine();
+//Console.WriteLine("Indtast et tal fra 1 til 10 for at udskrive tabellen.");
+//int linje;
+//do
+//{
+//    linje = Convert.ToInt32(Console.ReadLine());
+//    if (linje >= 1 && linje <= 10)
+//    {
+//        for (int tal = linje; tal < linje * 10 + 1; tal = tal + linje)
+//        {
+//            Console.Write($"{tal}\t");
+//        }
+//        Console.WriteLine();
+//    }
+//    else
+//    {
+//        Console.WriteLine("Invalidt tal. Tryk ENTER og prøv igen.");
+//        Console.ReadLine();
+//        goto start;
+//    }
+//} while (linje >= 1 && linje <= 10);
+
 
 /*Øvelse 5.10
 Lav et program hvor brugeren kan indtaste sin adgangskode. Hvis adgangskoden er forkert, må brugeren indtaste igen - dog højst tre gange i alt. Efter det skal brugeren have at vide, at hans konto er spærret.

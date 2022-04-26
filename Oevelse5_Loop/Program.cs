@@ -681,6 +681,7 @@ hvorefter programmet udskriver den tabel.
 Dvs., hvis brugeren indtaster 4 skriver programmet "4 8 12 … 40"
 🤔 Virker dit program også, hvis brugeren indtaster et decimaltal? Hvis ikke, hvad skal der så ændres for at det gør?
 Se vejledende løsning til 5.9 her.
+https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dadbd072-5ac3-4fd2-adf8-addc014df2d1
 */
 
 //using System;
@@ -688,14 +689,14 @@ Se vejledende løsning til 5.9 her.
 //Console.Clear();
 //Console.WriteLine("Øvelse 5.9: Looping 'Input/Output tabel'");
 //Console.WriteLine();
-//Console.WriteLine("Indtast et tal fra 1 til 10 for at udskrive tabellen.");
-//int linje;
+//Console.WriteLine("Indtast et tal fra 1 til 10 for at udskrive den ønskede tabel.");
+//double linje;
 //do
 //{
-//    linje = Convert.ToInt32(Console.ReadLine());
+//    linje = Math.Round(Convert.ToDouble(Console.ReadLine()), 0);
 //    if (linje >= 1 && linje <= 10)
 //    {
-//        for (int tal = linje; tal < linje * 10 + 1; tal = tal + linje)
+//        for (double tal = linje; tal < linje * 10 + 1; tal = tal + linje)
 //        {
 //            Console.Write($"{tal}\t");
 //        }

@@ -810,3 +810,53 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aff6f410-1a19-
 //Console.WriteLine("Tryk ENTER og prøv igen.");
 //Console.ReadLine();
 //goto start;
+
+/*
+Find 5 fejl om løkker
+
+En undersøgelse viser, at softwareudviklere bruger mere tid på at teste og rette fejl end på at skrive ny kode.
+Derfor skal du naturligvis også træne den kompetence, mens du er i gang med at lære at programmere.
+Jeg håber, du laver en masse fejl i dine programmer, så du bliver trænet i at finde og løse dem.
+Derudover har jeg lavet et stykke kode til dig, som både indeholder nogle syntaktiske fejl og nogle semantiske fejl.
+Jeg har lavet 5 fejl i alt - men én fejl kan godt føre til, at flere andre ting også fejler, så det kan godt føles som om, du retter flere fejl end 5.
+Opgaven er løst, når programmet opfører sig som beskrevet.
+
+https://thenewstack.io/how-much-time-do-developers-spend-actually-writing-code/
+
+Start med at kopiere koden herunder over i et nyt projekt i Visual Studio. Ret så de syntaktiske fejl, så du kan køre programmet, og om der er mere galt.
+
+// Programmet skal udskrive tallene fra 0 til 9
+// med den detalje at i stedet for tallet 5 skal teksten FEM udskrives
+// (så det bliver 0 1 2 3 4 FEM 6 7 8 9)
+
+foreach (int i = 0; 1 < 10; i++);
+{
+    if (i == 5)
+    {
+        Console.Write("FEM");
+    }
+    Console.Write(I);
+    Console.Write(" ");
+}
+*/
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Find 5 fejl om løkker");
+//Console.WriteLine("");
+//for (int i = 0; i < 10; i++)
+//{
+//    if (i == 5)
+//    {
+//        Console.Write("FEM");
+//        Console.Write(" ");
+//    } else {
+//    Console.Write(i);
+//    Console.Write(" ");
+//    }
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
